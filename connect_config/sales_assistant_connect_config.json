@@ -1,0 +1,84 @@
+{
+  "mappings": [
+    {
+      "object_name": "Opportunity",
+      "config": {
+        "indexes": {
+          "External_Opportunity_ID__c": {
+            "unique": true
+          },
+          "LastModifiedDate": {
+            "unique": false
+          },
+          "SystemModstamp": {
+            "unique": false
+          },
+          "Id": {
+            "unique": true
+          }
+        },
+        "sf_max_daily_api_calls": 30000,
+        "access": "read_write",
+        "upsert_field": "External_Opportunity_ID__c",
+        "applied_at": "2018-03-05T20:40:30.972662Z",
+        "sf_polling_seconds": 600,
+        "sf_notify_enabled": false,
+        "fields": {
+          "CloseDate": {},
+          "AccountId": {},
+          "External_Opportunity_ID__c": {},
+          "StageName": {},
+          "Name": {},
+          "HasOverdueTask": {},
+          "IsWon": {},
+          "LastModifiedDate": {},
+          "FiscalQuarter": {},
+          "OwnerId": {},
+          "IsDeleted": {},
+          "SystemModstamp": {},
+          "HasOpenActivity": {},
+          "Probability": {},
+          "CreatedDate": {},
+          "IsClosed": {},
+          "Amount": {},
+          "IsPrivate": {},
+          "CreatedById": {},
+          "Id": {},
+          "FiscalYear": {},
+          "Fiscal": {},
+          "NextStep": {}
+        }
+      }
+    },
+    {
+      "object_name": "Period",
+      "config": {
+        "access": "read_only",
+        "sf_notify_enabled": false,
+        "sf_polling_seconds": 600,
+        "sf_max_daily_api_calls": 30000,
+        "fields": {
+          "FullyQualifiedLabel": {},
+          "IsForecastPeriod": {},
+          "QuarterLabel": {},
+          "EndDate": {},
+          "SystemModstamp": {},
+          "StartDate": {},
+          "PeriodLabel": {},
+          "FiscalYearSettingsId": {},
+          "Type": {},
+          "Id": {}
+        },
+        "indexes": {
+          "SystemModstamp": {
+            "unique": false
+          },
+          "Id": {
+            "unique": true
+          }
+        }
+      }
+    }
+  ],
+  "version": 1
+}

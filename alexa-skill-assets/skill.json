@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "This is a sample skill where Alexa serves as your sales assistant.",
+          "examplePhrases": [
+            "Alexa, ask sales assistant for my revenue.",
+            "Alexa, ask sales assistant to get my opportunities.",
+            "Update my closing date to next Friday."
+          ],
+          "keywords": [],
+          "name": "Sales Assistant",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9836/0204e9d9679141bd9cb4b8fef7506c81/APP_ICON?versionId=y7HAJBsPUHkIY2pdOIdSeSBXt2nRc4Bw&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1522869882&Signature=kSJA1jbppR7ErNsHaRl9ZdK%2Bi9k%3D",
+          "description": "This skill supports features that a sales assistant might provide for you by accessing your Salesforce data. You can obtain a revenue report, which reports on the amount of your deals closing in the current fiscal quarter, as well as the ability to find and update opportunities.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/83b0/a7a280120f3946cca3a7ffe2cf619df9/APP_ICON_LARGE?versionId=2_oZ4OjSCd1VwFbl6eZ9DyFo5SMn9Gvq&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1522869882&Signature=VDWBQFoVP%2B5kik7pTNfcjl5j0Dk%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "This skill requires connection to a Salesforce instance.",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionMode": "PRIVATE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sslCertificateType": "Wildcard",
+          "uri": "https://<Your App Here>.herokuapp.com/skill"
+        },
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://aws.amazon.com/service-terms/",
+          "privacyPolicyUrl": "https://aws.amazon.com/privacy/"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
