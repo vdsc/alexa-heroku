@@ -78,7 +78,6 @@
               "samples": [
                 "The {updateOption} is {stage} stage",
                 "The {updateOption} should be {stage}",
-                "The {updateOption} are {nextSteps}",
                 "The {updateOption} is {closingDate}",
                 "The {updateOption} is {amount} dollars",
                 "The {updateOption} is {amount}",
@@ -311,51 +310,6 @@
             }
           ],
           "name": "UpdateOptions"
-        },
-        {
-          "values": [
-            {
-              "name": {
-                "value": "united oil"
-              }
-            },
-            {
-              "name": {
-                "value": "united"
-              }
-            },
-            {
-              "name": {
-                "value": "the customer is thinking about the scenario and will get back to us soon"
-              }
-            },
-            {
-              "name": {
-                "value": "eric will call james on friday"
-              }
-            },
-            {
-              "name": {
-                "value": "eric will call randy on monday"
-              }
-            },
-            {
-              "name": {
-                "value": "university"
-              }
-            },
-            {
-              "name": {
-                "value": "generators"
-              }
-            },
-            {
-              "name": {
-                "value": "united oil installations"
-              }
-            }
-          ],
-          "name": "AMAZON.SearchQuery"
         }
       ]
     },
